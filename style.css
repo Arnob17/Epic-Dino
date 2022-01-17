@@ -12,7 +12,7 @@
 #character{
     width: 10%;
     height: 30%;
-    background: rgba(0, 0, 0, 0) url('/final.png');
+    background: black;
     position:relative;
     top: 150px;
 }
