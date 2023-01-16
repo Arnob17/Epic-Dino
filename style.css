@@ -3,6 +3,10 @@
     margin: 0;
     overflow-x: hidden;
 }
+body {
+    background-color: black;
+    color: white;
+}
 .game{
     width: 500px;
     height: 200px;
@@ -12,7 +16,7 @@
 #character{
     width: 10%;
     height: 30%;
-    background: black;
+    background: white;
     position:relative;
     top: 150px;
 }
