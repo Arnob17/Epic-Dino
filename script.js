@@ -21,3 +21,9 @@ var checkDead = setInterval(function() {
         document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
     }
 }, 10);
+
+window.addEventListener('keypress', (k) => {
+    if (k.code == 'Space') {
+        jump()
+    }
+})
